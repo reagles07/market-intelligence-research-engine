@@ -1,0 +1,1 @@
+-- No HTTP database extension is required. Scheduling runs in trusted application code.

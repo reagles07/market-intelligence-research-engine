@@ -1,0 +1,24 @@
+name: Source checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - run: npm ci --ignore-scripts --no-audit --no-fund
+      - run: npm audit --omit=dev --audit-level=high
+      - run: npm run format:check
+      - run: npm run lint
+      - run: npm run validate:migrations
+      - run: npm test
+      - run: npm run scan:publication
+      - run: npm run typecheck
+      - run: npm run build
+        env:
+          SUPABASE_SERVICE_ROLE_KEY: sb_secret_synthetic_build_canary
+      - run: npm run scan:publication -- --built

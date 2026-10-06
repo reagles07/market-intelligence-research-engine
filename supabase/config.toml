@@ -1,0 +1,7 @@
+project_id = "your-project-ref"
+
+[auth]
+enable_signup = false
+
+[db.seed]
+enabled = false

@@ -1,0 +1,1 @@
+ALTER TABLE public.script_audits ADD COLUMN IF NOT EXISTS body_hash text;

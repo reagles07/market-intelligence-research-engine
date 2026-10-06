@@ -1,0 +1,322 @@
+[
+  {
+    "table": "ai_requests",
+    "category": "audit/log data",
+    "browser_write": false
+  },
+  {
+    "table": "analyst_views",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "audit_logs",
+    "category": "audit/log data",
+    "browser_write": false
+  },
+  {
+    "table": "automation_pipeline_items",
+    "category": "system/service-only",
+    "browser_write": false
+  },
+  {
+    "table": "automation_pipeline_runs",
+    "category": "system/service-only",
+    "browser_write": false
+  },
+  {
+    "table": "automation_settings",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "candidate_score_components",
+    "category": "system/service-only",
+    "browser_write": false
+  },
+  {
+    "table": "candidate_sources",
+    "category": "system/service-only",
+    "browser_write": false
+  },
+  {
+    "table": "claims",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "companies",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "content_assets",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "content_composition_companies",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "content_compositions",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "content_orchestration_runs",
+    "category": "system/service-only",
+    "browser_write": false
+  },
+  {
+    "table": "content_orchestration_steps",
+    "category": "system/service-only",
+    "browser_write": false
+  },
+  {
+    "table": "content_publications",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "daily_market_runs",
+    "category": "system/service-only",
+    "browser_write": false
+  },
+  {
+    "table": "daily_run_executions",
+    "category": "system/service-only",
+    "browser_write": false
+  },
+  {
+    "table": "discovery_runs",
+    "category": "system/service-only",
+    "browser_write": false
+  },
+  {
+    "table": "discovery_settings",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "earnings_reports",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "events",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "fact_sprint_runs",
+    "category": "system/service-only",
+    "browser_write": false
+  },
+  {
+    "table": "financial_periods",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "market_holidays",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "market_schedules",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "market_snapshots",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "profiles",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "provider_data_conflicts",
+    "category": "audit/log data",
+    "browser_write": false
+  },
+  {
+    "table": "provider_raw_responses",
+    "category": "audit/log data",
+    "browser_write": false
+  },
+  {
+    "table": "provider_requests",
+    "category": "audit/log data",
+    "browser_write": false
+  },
+  {
+    "table": "provider_stock_data",
+    "category": "system/service-only",
+    "browser_write": false
+  },
+  {
+    "table": "quantitative_metrics",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "research_gaps",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "research_orchestration_runs",
+    "category": "system/service-only",
+    "browser_write": false
+  },
+  {
+    "table": "research_orchestration_settings",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "research_orchestration_steps",
+    "category": "system/service-only",
+    "browser_write": false
+  },
+  {
+    "table": "research_packets",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "research_sections",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "run_locks",
+    "category": "system/service-only",
+    "browser_write": false
+  },
+  {
+    "table": "run_notifications",
+    "category": "audit/log data",
+    "browser_write": false
+  },
+  {
+    "table": "scenario_forecasts",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "scores",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "script_audits",
+    "category": "audit/log data",
+    "browser_write": false
+  },
+  {
+    "table": "script_repairs",
+    "category": "audit/log data",
+    "browser_write": false
+  },
+  {
+    "table": "script_sections",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "script_statements",
+    "category": "system/service-only",
+    "browser_write": false
+  },
+  {
+    "table": "script_style_checks",
+    "category": "audit/log data",
+    "browser_write": false
+  },
+  {
+    "table": "script_style_profiles",
+    "category": "shared read-only reference data",
+    "browser_write": false
+  },
+  {
+    "table": "script_versions",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "scripts",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "sec_facts",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "sec_filings",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "sec_ticker_cik",
+    "category": "shared read-only reference data",
+    "browser_write": false
+  },
+  {
+    "table": "sentiment_snapshots",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "sources",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "stories",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "story_candidates",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "technical_metrics",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "universe_members",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "valuations",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "watchlist_items",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "watchlists",
+    "category": "user-owned",
+    "browser_write": true
+  },
+  {
+    "table": "web_research_runs",
+    "category": "system/service-only",
+    "browser_write": false
+  }
+]

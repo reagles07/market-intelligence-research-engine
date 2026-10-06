@@ -1,0 +1,4 @@
+ALTER TABLE public.profiles
+  ADD COLUMN IF NOT EXISTS channel_name TEXT,
+  ADD COLUMN IF NOT EXISTS host_name TEXT,
+  ADD COLUMN IF NOT EXISTS default_platform TEXT NOT NULL DEFAULT 'YouTube';

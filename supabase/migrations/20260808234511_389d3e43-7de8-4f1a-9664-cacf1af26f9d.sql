@@ -1,0 +1,1 @@
+ALTER TABLE public.research_packets ADD COLUMN IF NOT EXISTS evidence_snapshot jsonb;

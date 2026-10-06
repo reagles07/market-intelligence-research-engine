@@ -1,0 +1,2 @@
+-- Database cron and HTTP extensions are not used by this application.
+-- Use the authenticated application scheduler; no database network job is installed.
